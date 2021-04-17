@@ -375,7 +375,7 @@ small {
         padding-inline-end: 100px;
     }
     .list-nav li {
-        width: 100vw;
+        width: 7©0px;
     }
     .container {
         max-width: 500px;
@@ -392,6 +392,9 @@ small {
 @media (max-width: 450px) {
     .list-nav {
         visibility: hidden;
+    }
+    .list-nav li {
+        width: 100vw;
     }
     .list-nav> :first-child {
         border-left: 0;
@@ -421,6 +424,9 @@ small {
         position: fixed;
         right: 0;
         top: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 2rem;
     }
     .card:first-child {
         padding-top: 20px;
